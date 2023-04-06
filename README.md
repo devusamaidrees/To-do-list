@@ -24,4 +24,4 @@ The code consists of five functions:
 
 4.**Show_Data()**: This function retrieves the list of tasks from local storage and displays it in the list container (<ul> element).
 
-5.The last line of code calls the Show_Data() function when the page is loaded, so the list is automatically loaded from local storage.
+5.The last line of code calls the **Show_Data()** function when the page is loaded, so the list is automatically loaded from local storage.
