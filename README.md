@@ -18,7 +18,7 @@ The code consists of five functions:
 
 1.**Add_task()**: This function is called when the user clicks the "Add Task" button. It checks if the input field is empty, and if so, displays an alert. If the input field contains text, a new `<li>` element is created with the text as its inner HTML. A "delete" button is also added to the `<li>` element. The new `<li>` element is then appended to the list container (`<ul>` element). Finally, the input field is cleared, and the list is saved to local storage.
 
-2.**list_container.addEventListener()**: This function listens for click events on the list container (**<ul>** element). If the clicked element is an **<li>** element, the class "checked" is toggled, and the list is saved to local storage. If the clicked element is the "delete" button (**<span>** element), the parent **<li>** element is removed from the list, and the list is saved to local storage.
+2.**list_container.addEventListener()**: This function listens for click events on the list container (`<ul>` element). If the clicked element is an `<li>` element, the class "checked" is toggled, and the list is saved to local storage. If the clicked element is the "delete" button (`<span>` element), the parent `<li>` element is removed from the list, and the list is saved to local storage.
 
 3.**Save_Data():** This function saves the list of tasks to local storage. The list is saved as a string of HTML.
 
