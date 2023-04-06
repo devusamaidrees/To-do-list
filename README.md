@@ -22,6 +22,6 @@ The code consists of five functions:
 
 3.**Save_Data():** This function saves the list of tasks to local storage. The list is saved as a string of HTML.
 
-4.**Show_Data()**: This function retrieves the list of tasks from local storage and displays it in the list container (<ul> element).
+4.**Show_Data()**: This function retrieves the list of tasks from local storage and displays it in the list container (`<ul>` element).
 
 5.The last line of code calls the **Show_Data()** function when the page is loaded, so the list is automatically loaded from local storage.
