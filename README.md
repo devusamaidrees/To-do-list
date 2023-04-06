@@ -3,15 +3,15 @@
 This code defines a simple to-do list application that allows users to add tasks, mark them as completed, and remove them from the list. The tasks are stored in the browser's local storage, so they persist even after the page is closed and reopened.
 
 # Usage
-#### To `use the application`, open the HTML file in a web browser. The user interface consists of a text input field, a button to add tasks, and a list of tasks.
+To **use the application**, open the HTML file in a web browser. The user interface consists of a text input field, a button to add tasks, and a list of tasks.
 
-#### To `add a new task`, type a description in the input field and click the "Add Task" button. The new task will appear at the bottom of the list.
+To **add a new task**, type a description in the input field and click the "Add Task" button. The new task will appear at the bottom of the list.
 
-#### To `mark a task as completed`, click on the task. The task will be visually marked as completed by changing its background color. To unmark a task, click on it again.
+To **mark a task as completed**, click on the task. The task will be visually marked as completed by changing its background color. To unmark a task, click on it again.
 
-#### To `remove a task`, click on the "`x`" icon next to the task.
+To **remove a task**, click on the "**x**" icon next to the task.
 
-#### The application uses the browser's `local storage` to store the list of tasks. The list will be automatically loaded from local storage when the page is opened. Any changes made to the list will be saved to local storage automatically.
+The application uses the browser's **local storage** to store the list of tasks. The list will be automatically loaded from local storage when the page is opened. Any changes made to the list will be saved to local storage automatically.
 
 # Code explanation
 The code consists of five functions:
