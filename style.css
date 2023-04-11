@@ -4,10 +4,11 @@
     box-sizing: border-box;
 }
 .container{
-    width: 100vw;
-    height: 100vh;
-    background:linear-gradient(135deg,blue,purple);
-    overflow: hidden;
+    min-height: 100vh;
+    background: linear-gradient(135deg, blue, purple);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .app{
     width: 50vw;
